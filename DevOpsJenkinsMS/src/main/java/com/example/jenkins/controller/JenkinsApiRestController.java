@@ -142,7 +142,22 @@ public class JenkinsApiRestController {
 				HttpMethod.POST, new HttpEntity<String>(createHeaders("Kishore", "117295db43264acb81e011b151ea52a1ac")), String.class);
 		return response.getBody();
 	}
-	
+
+	@ApiOperation(value = "Open circute", response = Iterable.class)
+	@ApiResponses(value = { @ApiResponse(code = 200, message = "Suceess|OK"),
+			@ApiResponse(code = 401, message = "not authorized!"), @ApiResponse(code = 403, message = "forbidden!!!"),
+			@ApiResponse(code = 404, message = "not found!!!") })
+	@HystrixCommand
+	@RequestMapping(value = "/openCircute", method = RequestMethod.GET)
+	public String openCircute(@RequestParam("status") Boolean status) throws Exception {
+
+	    String x= "open";
+	    if(status){
+            throw new Exception();
+        }
+
+    return x;
+	}
 	HttpHeaders createHeaders(String username, String password) {
 		return new HttpHeaders() {
 			{
@@ -168,6 +183,9 @@ public class JenkinsApiRestController {
 		jobs.setJobs();*/
 		return Arrays.asList(new Job("Test1","url1"),new Job("Test1","Url2"));
 	}
+
+
+
 	
 	 
 
