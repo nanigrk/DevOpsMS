@@ -55,7 +55,7 @@ public class JenkinsApiRestController {
 	@HystrixCommand(fallbackMethod = "ServiceUnavalible")
 	public List<Job> getJobs() {
 		System.out.println("getJobs  : " + ROOT_URI + "?tree=jobs[name,color,url]");
-		ResponseEntity<Jobs> response = restTemplate.exchange(ROOT_URI + API_URL + "?tree=jobs[name,color,url]",
+		ResponseEntity<Jobs> response = restTemplate.exchange(ROOT_URI + API_URL + "?tree=jobs[name,color,url,builds[number,is,result,timestamp]]",
 				HttpMethod.GET, new HttpEntity<Jobs>(createHeaders("Kishore", "Kishore")), Jobs.class);
 		// Jobs jobs =
 		// restTemplate.getForObject(ROOT_URI+"?pretty&tree=jobs[name,url,fullName]",
@@ -70,7 +70,6 @@ public class JenkinsApiRestController {
 			@ApiResponse(code = 404, message = "not found!!!") })
 
 	@RequestMapping(value = "/getJobDetails/{jobName}", method = RequestMethod.GET)
-	@HystrixCommand(fallbackMethod="ServiceUnavalible", commandProperties =    { @HystrixProperty(name="execution.isolation.thread.timeoutInMilliSeconds", value="500")})
 	public JobWithDetails getJobDetails(@PathVariable("jobName") String jobName) {
 		System.out.println("getJobDetails  : " + ROOT_URI + "/job/FirstTest");
 		ResponseEntity<JobWithDetails> response = restTemplate.exchange(ROOT_URI + API_URL + "/job/"+jobName,
