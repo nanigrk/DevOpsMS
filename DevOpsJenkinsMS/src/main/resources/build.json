@@ -1,0 +1,381 @@
+{
+  "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "jenkins.branch.BranchEventCause",
+          "shortDescription": "Push event to branch master"
+        }
+      ]
+    },
+    {
+      "_class": "jenkins.metrics.impl.TimeInQueueAction",
+      "blockedDurationMillis": 0,
+      "blockedTimeMillis": 0,
+      "buildableDurationMillis": 0,
+      "buildableTimeMillis": 1419055,
+      "buildingDurationMillis": 7959615,
+      "executingTimeMillis": 14958683,
+      "executorUtilization": 1.88,
+      "subTaskCount": 4,
+      "waitingDurationMillis": 1,
+      "waitingTimeMillis": 6
+    },
+    {},
+    {
+      "_class": "jenkins.scm.api.SCMRevisionAction"
+    },
+    {},
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "master": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 2096,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "3382e5e4279a50ac8e3e169dcb862efcbadefd20",
+            "branch": [
+              {
+                "SHA1": "3382e5e4279a50ac8e3e169dcb862efcbadefd20",
+                "name": "master"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "3382e5e4279a50ac8e3e169dcb862efcbadefd20",
+            "branch": [
+              {
+                "SHA1": "3382e5e4279a50ac8e3e169dcb862efcbadefd20",
+                "name": "master"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "3382e5e4279a50ac8e3e169dcb862efcbadefd20",
+        "branch": [
+          {
+            "SHA1": "3382e5e4279a50ac8e3e169dcb862efcbadefd20",
+            "name": "master"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/jenkins-infra/pipeline-library.git"
+      ],
+      "scmName": ""
+    },
+    {
+      "_class": "hudson.plugins.git.GitTagAction"
+    },
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.workflow.cps.EnvActionImpl"
+    },
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "master": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 2096,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "be28d586b5db3cd3a5b7bbbfa265e73e86b6446b",
+            "branch": [
+              {
+                "SHA1": "be28d586b5db3cd3a5b7bbbfa265e73e86b6446b",
+                "name": "master"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "be28d586b5db3cd3a5b7bbbfa265e73e86b6446b",
+            "branch": [
+              {
+                "SHA1": "be28d586b5db3cd3a5b7bbbfa265e73e86b6446b",
+                "name": "master"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "be28d586b5db3cd3a5b7bbbfa265e73e86b6446b",
+        "branch": [
+          {
+            "SHA1": "be28d586b5db3cd3a5b7bbbfa265e73e86b6446b",
+            "name": "master"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/jenkinsci/jenkins.git"
+      ],
+      "scmName": ""
+    },
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "detached": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 2096,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "1cc579eac831af27f444100c6bde73b342ec7c22",
+            "branch": [
+              {
+                "SHA1": "1cc579eac831af27f444100c6bde73b342ec7c22",
+                "name": "detached"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "1cc579eac831af27f444100c6bde73b342ec7c22",
+            "branch": [
+              {
+                "SHA1": "1cc579eac831af27f444100c6bde73b342ec7c22",
+                "name": "detached"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "1cc579eac831af27f444100c6bde73b342ec7c22",
+        "branch": [
+          {
+            "SHA1": "1cc579eac831af27f444100c6bde73b342ec7c22",
+            "name": "detached"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/jenkinsci/acceptance-test-harness.git"
+      ],
+      "scmName": ""
+    },
+    {},
+    {
+      "_class": "hudson.tasks.junit.TestResultAction",
+      "failCount": 0,
+      "skipCount": 140,
+      "totalCount": 37755,
+      "urlName": "testReport"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+    },
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+    },
+    {},
+    {},
+    {}
+  ],
+  "artifacts": [
+    {
+      "displayPath": null,
+      "fileName": "2020-07-21T04-25-36_613.dumpstream",
+      "relativePath": "core/target/surefire-reports/2020-07-21T04-25-36_613.dumpstream"
+    },
+    {
+      "displayPath": null,
+      "fileName": "cli-2.246-rc30251.be28d586b5db-javadoc.jar",
+      "relativePath": "org/jenkins-ci/main/cli/2.246-rc30251.be28d586b5db/cli-2.246-rc30251.be28d586b5db-javadoc.jar"
+    },
+    {
+      "displayPath": null,
+      "fileName": "cli-2.246-rc30251.be28d586b5db-sources.jar",
+      "relativePath": "org/jenkins-ci/main/cli/2.246-rc30251.be28d586b5db/cli-2.246-rc30251.be28d586b5db-sources.jar"
+    },
+    {
+      "displayPath": null,
+      "fileName": "cli-2.246-rc30251.be28d586b5db.jar",
+      "relativePath": "org/jenkins-ci/main/cli/2.246-rc30251.be28d586b5db/cli-2.246-rc30251.be28d586b5db.jar"
+    },
+    {
+      "displayPath": null,
+      "fileName": "cli-2.246-rc30251.be28d586b5db.pom",
+      "relativePath": "org/jenkins-ci/main/cli/2.246-rc30251.be28d586b5db/cli-2.246-rc30251.be28d586b5db.pom"
+    },
+    {
+      "displayPath": null,
+      "fileName": "jenkins-bom-2.246-rc30251.be28d586b5db.pom",
+      "relativePath": "org/jenkins-ci/main/jenkins-bom/2.246-rc30251.be28d586b5db/jenkins-bom-2.246-rc30251.be28d586b5db.pom"
+    },
+    {
+      "displayPath": null,
+      "fileName": "jenkins-core-2.246-rc30251.be28d586b5db-javadoc.jar",
+      "relativePath": "org/jenkins-ci/main/jenkins-core/2.246-rc30251.be28d586b5db/jenkins-core-2.246-rc30251.be28d586b5db-javadoc.jar"
+    },
+    {
+      "displayPath": null,
+      "fileName": "jenkins-core-2.246-rc30251.be28d586b5db-sources.jar",
+      "relativePath": "org/jenkins-ci/main/jenkins-core/2.246-rc30251.be28d586b5db/jenkins-core-2.246-rc30251.be28d586b5db-sources.jar"
+    },
+    {
+      "displayPath": null,
+      "fileName": "jenkins-core-2.246-rc30251.be28d586b5db.jar",
+      "relativePath": "org/jenkins-ci/main/jenkins-core/2.246-rc30251.be28d586b5db/jenkins-core-2.246-rc30251.be28d586b5db.jar"
+    },
+    {
+      "displayPath": null,
+      "fileName": "jenkins-core-2.246-rc30251.be28d586b5db.pom",
+      "relativePath": "org/jenkins-ci/main/jenkins-core/2.246-rc30251.be28d586b5db/jenkins-core-2.246-rc30251.be28d586b5db.pom"
+    },
+    {
+      "displayPath": null,
+      "fileName": "jenkins-parent-2.246-rc30251.be28d586b5db.pom",
+      "relativePath": "org/jenkins-ci/main/jenkins-parent/2.246-rc30251.be28d586b5db/jenkins-parent-2.246-rc30251.be28d586b5db.pom"
+    },
+    {
+      "displayPath": null,
+      "fileName": "jenkins-war-2.246-rc30251.be28d586b5db.license.html",
+      "relativePath": "org/jenkins-ci/main/jenkins-war/2.246-rc30251.be28d586b5db/jenkins-war-2.246-rc30251.be28d586b5db.license.html"
+    },
+    {
+      "displayPath": null,
+      "fileName": "jenkins-war-2.246-rc30251.be28d586b5db.license.xml",
+      "relativePath": "org/jenkins-ci/main/jenkins-war/2.246-rc30251.be28d586b5db/jenkins-war-2.246-rc30251.be28d586b5db.license.xml"
+    },
+    {
+      "displayPath": null,
+      "fileName": "jenkins-war-2.246-rc30251.be28d586b5db.pom",
+      "relativePath": "org/jenkins-ci/main/jenkins-war/2.246-rc30251.be28d586b5db/jenkins-war-2.246-rc30251.be28d586b5db.pom"
+    },
+    {
+      "displayPath": null,
+      "fileName": "jenkins-war-2.246-rc30251.be28d586b5db.war",
+      "relativePath": "org/jenkins-ci/main/jenkins-war/2.246-rc30251.be28d586b5db/jenkins-war-2.246-rc30251.be28d586b5db.war"
+    },
+    {
+      "displayPath": null,
+      "fileName": "2020-07-21T04-30-40_186.dumpstream",
+      "relativePath": "test/target/surefire-reports/2020-07-21T04-30-40_186.dumpstream"
+    },
+    {
+      "displayPath": null,
+      "fileName": "2020-07-21T04-31-21_464.dumpstream",
+      "relativePath": "test/target/surefire-reports/2020-07-21T04-31-21_464.dumpstream"
+    }
+  ],
+  "building": false,
+  "description": null,
+  "displayName": "#2096",
+  "duration": 7959615,
+  "estimatedDuration": 7959615,
+  "executor": null,
+  "fullDisplayName": "Core » jenkins » master #2096",
+  "id": "2096",
+  "keepLog": false,
+  "number": 2096,
+  "queueId": 988598,
+  "result": "SUCCESS",
+  "timestamp": 1595305257532,
+  "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2096/",
+  "changeSets": [
+    {
+      "_class": "hudson.plugins.git.GitChangeSetList",
+      "items": [
+        {
+          "_class": "hudson.plugins.git.GitChangeSet",
+          "affectedPaths": [
+            "core/src/main/java/jenkins/fingerprints/FileFingerprintStorage.java",
+            "core/src/main/resources/jenkins/fingerprints/GlobalFingerprintConfiguration/config.jelly",
+            "test/src/test/java/hudson/model/FingerprintCleanupThreadTest.java",
+            "core/src/main/java/jenkins/fingerprints/GlobalFingerprintConfiguration.java",
+            "core/src/main/java/jenkins/fingerprints/FingerprintStorage.java",
+            "core/src/main/java/hudson/model/FingerprintCleanupThread.java"
+          ],
+          "commitId": "be28d586b5db3cd3a5b7bbbfa265e73e86b6446b",
+          "timestamp": 1595305247000,
+          "author": {
+            "absoluteUrl": "https://ci.jenkins.io/user/github",
+            "fullName": "github"
+          },
+          "authorEmail": "noreply@github.com",
+          "comment": "[JENKINS-62755] Introduce Fingerprint Cleanup in External Storage API (#4817)\n\n* Create new FingerprintCleanupThread\n\n* Moved test to jenkins\n\n* Add license\n\n* Fix license\n\n* Fix some tests\n\n* Fix all tests\n\n* Remove redundant imports\n\n* Add documentation; add test\n\n* Fix errors in fingerprintertest\n\n* Remove default fingerprint cleanup implementation\n\n* Remove override from execute\n\n* Undo author deletion\n\n* Remove redundant import\n\n* Move fingerprint cleanup to storage\n\n* Fix spacing\n\n* Add new line\n\n* Minor fixes\n\n* Fix tests\n\n* Add documentation\n\n* Introduce fingerprint cleanup toggle\n\n* Link cleanup config to thread\n\n* Add file system cleanup\n\n* Add test\n\n* Introduce external fingerprint storage cleanup tests\n\n* Remove redundant statements\n\n* Fix test\n\n* Improve docstring\n\n* Introduce shouldNotCleanFingerprintsWhenDisabled test\n\n* Fix default cleanup value\n\n* Minor fixes\n\n* Enabled->Disabled\n\n* Fix tests\n\n* get -> is\n",
+          "date": "2020-07-21T04:20:47+0000",
+          "id": "be28d586b5db3cd3a5b7bbbfa265e73e86b6446b",
+          "msg": "[JENKINS-62755] Introduce Fingerprint Cleanup in External Storage API (#4817)",
+          "paths": [
+            {
+              "editType": "edit",
+              "file": "core/src/main/java/jenkins/fingerprints/GlobalFingerprintConfiguration.java"
+            },
+            {
+              "editType": "edit",
+              "file": "core/src/main/resources/jenkins/fingerprints/GlobalFingerprintConfiguration/config.jelly"
+            },
+            {
+              "editType": "edit",
+              "file": "core/src/main/java/jenkins/fingerprints/FingerprintStorage.java"
+            },
+            {
+              "editType": "edit",
+              "file": "core/src/main/java/jenkins/fingerprints/FileFingerprintStorage.java"
+            },
+            {
+              "editType": "edit",
+              "file": "core/src/main/java/hudson/model/FingerprintCleanupThread.java"
+            },
+            {
+              "editType": "edit",
+              "file": "test/src/test/java/hudson/model/FingerprintCleanupThreadTest.java"
+            }
+          ]
+        }
+      ],
+      "kind": "git"
+    }
+  ],
+  "culprits": [
+    {
+      "absoluteUrl": "https://ci.jenkins.io/user/o.v.nenashev",
+      "fullName": "o.v.nenashev"
+    },
+    {
+      "absoluteUrl": "https://ci.jenkins.io/user/fqueiruga",
+      "fullName": "fqueiruga"
+    },
+    {
+      "absoluteUrl": "https://ci.jenkins.io/user/s.spieker",
+      "fullName": "S.Spieker"
+    },
+    {
+      "absoluteUrl": "https://ci.jenkins.io/user/wadeck.follonier",
+      "fullName": "wadeck.follonier"
+    },
+    {
+      "absoluteUrl": "https://ci.jenkins.io/user/github",
+      "fullName": "github"
+    },
+    {
+      "absoluteUrl": "https://ci.jenkins.io/user/daniel-beck",
+      "fullName": "daniel-beck"
+    }
+  ],
+  "nextBuild": null,
+  "previousBuild": {
+    "number": 2095,
+    "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2095/"
+  }
+}

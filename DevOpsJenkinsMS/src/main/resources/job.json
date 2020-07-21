@@ -1,0 +1,356 @@
+{
+  "_class": "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+  "actions": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "_class": "hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction"
+    },
+    {},
+    {},
+    {
+      "_class": "jenkins.scm.api.metadata.ObjectMetadataAction"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+    }
+  ],
+  "description": null,
+  "displayName": "master",
+  "displayNameOrNull": null,
+  "fullDisplayName": "Core » jenkins » master",
+  "fullName": "Core/jenkins/master",
+  "name": "master",
+  "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/",
+  "buildable": true,
+  "builds": [
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2096,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2096/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2095,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2095/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2094,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2094/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2093,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2093/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2092,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2092/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2091,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2091/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2090,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2090/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2089,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2089/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2088,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2088/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2087,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2087/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2086,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2086/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2085,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2085/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2084,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2084/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2083,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2083/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2082,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2082/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2081,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2081/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2080,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2080/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2079,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2079/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2078,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2078/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2077,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2077/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2076,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2076/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2075,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2075/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2074,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2074/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2073,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2073/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2072,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2072/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2071,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2071/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2070,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2070/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2069,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2069/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2068,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2068/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2067,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2067/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2066,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2066/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2065,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2065/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2064,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2064/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2063,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2063/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2062,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2062/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2061,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2061/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2060,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2060/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2059,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2059/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2058,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2058/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2057,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2057/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2056,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2056/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2055,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2055/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2054,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2054/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2053,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2053/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2052,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2052/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2051,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2051/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2050,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2050/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2049,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2049/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2048,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2048/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 2047,
+      "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2047/"
+    }
+  ],
+  "color": "blue",
+  "firstBuild": {
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+    "number": 2047,
+    "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2047/"
+  },
+  "healthReport": [
+    {
+      "description": "Test Result: 0 tests failing out of a total of 37,755 tests.",
+      "iconClassName": "icon-health-80plus",
+      "iconUrl": "health-80plus.png",
+      "score": 100
+    },
+    {
+      "description": "Build stability: No recent builds failed.",
+      "iconClassName": "icon-health-80plus",
+      "iconUrl": "health-80plus.png",
+      "score": 100
+    }
+  ],
+  "inQueue": false,
+  "keepDependencies": false,
+  "lastBuild": {
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+    "number": 2096,
+    "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2096/"
+  },
+  "lastCompletedBuild": {
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+    "number": 2096,
+    "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2096/"
+  },
+  "lastFailedBuild": {
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+    "number": 2084,
+    "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2084/"
+  },
+  "lastStableBuild": {
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+    "number": 2096,
+    "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2096/"
+  },
+  "lastSuccessfulBuild": {
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+    "number": 2096,
+    "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2096/"
+  },
+  "lastUnstableBuild": null,
+  "lastUnsuccessfulBuild": {
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+    "number": 2095,
+    "url": "https://ci.jenkins.io/job/Core/job/jenkins/job/master/2095/"
+  },
+  "nextBuildNumber": 2097,
+  "property": [
+    {
+      "_class": "org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty",
+      "branch": {}
+    },
+    {
+      "_class": "jenkins.model.BuildDiscarderProperty"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.properties.DurabilityHintJobProperty"
+    }
+  ],
+  "queueItem": null,
+  "concurrentBuild": true,
+  "resumeBlocked": false
+}
